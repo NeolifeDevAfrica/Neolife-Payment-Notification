@@ -1,7 +1,7 @@
 
 # Models
 
-> Models is a folder that contains classes where all the application business logic, validation logic and database access logic are written. These are classes that the controllers act on to carry out the necessary actions on. Below is the structure of the Models folder. Most of these classes are actual table names as can be found in mdw or exigo databases. Please do not add classes here if they are not actual table names or DTO objects.
+> Models is a folder that contains classes where all the application business logic, validation logic and database access logic are maintained. These are classes that the controllers act on to carry out the necessary actions on. Below is the structure of the Models folder. Most of these classes are actual table names as can be found in mdw or exigo databases. Please do not add classes here if they are not actual table names or DTO objects.
 
 ![Moddels](./Images/models.png)
 
