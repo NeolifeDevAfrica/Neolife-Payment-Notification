@@ -1,7 +1,8 @@
 # Steps For Setting Up A New SMS Notification In Banks Project
 
 
-Most providers don’t send a standard notification using our endpoint channel. For cases like these, they usually send us an sms or email of payment transactions which we then consume and send to our messages table which is then saved into Exigo. Follow the steps below to achieve the flow.
+Most providers don’t send a standard notification using our endpoint channel. For cases like these, they usually send us an sms or email of payment transactions which we then consume and send to our messages table in mdw which is then saved into Exigo. Follow the steps below to achieve the flow.
+
 
 
 ### Step 1 
@@ -14,7 +15,7 @@ Create the provider/bank in the messagesources table on mdw BanksApiSandbox.Crea
 
 Once this record is created. You will also go back to the Postman collections of Neolife Payments and create that provider. The major difference is that the bank type will change from WEB to API.
 
-![api-banks](../Images/api-banks.png)
+![api-banks](../Images/sms_createbank.png)
 
 Once this is created, the response will come back that the Bank/provider have been created successfully as seen in the screenshot below
 
