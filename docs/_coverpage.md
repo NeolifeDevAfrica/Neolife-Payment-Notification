@@ -1,6 +1,6 @@
 
 
-# Neolife Payment Gateways and Notificaions API 
+# Neolife Payments Integration Flow
 
 
 This is an ASP.NET MVC Project that uses a Model-View-Controller approach <br>
