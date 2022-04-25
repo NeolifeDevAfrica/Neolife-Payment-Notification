@@ -1,4 +1,5 @@
-
+- __Getting Started__
+  - [Introduction](./Introduction/index.md)
 
 - __Components__
    - [Models](READme.md#Models)
@@ -6,7 +7,7 @@
    - [Controllers](READme.md#Controllers)
 
 
-- __Setting Up New Payment Integrations for WEB__
+- __WebPayments Integration Flow__
 
   - [Step 1](./new-payments/index.md#step-1)
   - [Step 2](./new-payments/index.md#step-2)
@@ -18,7 +19,8 @@
 
 
 
-- __Steps For Setting Up A New SMS Notification In Banks Project__
+- __Payments Notification Integration Flow__
   - [Step 1](./sms-notifications/index.md#step-1)
   - [Step 2](./sms-notifications/index.md#step-2)
   - [Step 3](./sms-notifications/index.md#step-3)
+
